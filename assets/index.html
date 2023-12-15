@@ -7,41 +7,46 @@
         <link rel="stylesheet" type="text/css" href="./css/styles.css" />
         <link rel="stylesheet" href="https://use.typekit.net/qgj7nky.css" />
     </head>
-    <body class="border-test">
-        <main>
-            <nav id="sidebar">
-                <div id="screen-mode">
-                    <p>Modes: </p>
-                    <ul>
-                        <li><a href="#" tabindex="">Dark</a></li>
-                        <li><a href="#" tabindex="">Light</a></li>
-                        <li><a href="#" tabindex="">Bubblegum</a></li>
-                    </ul>
-                </div>
+    <body>
+        <nav id="sidebar">
+            <div id="screen-mode">
                 <p>Copyright © Teo Georgiev, 2023</p>
-            </nav>
+                <div id="modes">
+                    <div class="mode"></div>
+                    <div class="mode"></div>
+                    <div class="mode"></div>
+                </div>
+            </div>
+        </nav>
+        <main>
             <section id="info">
                 <div id="status-update">
-                    <h4>Status update</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere maiores eaque quis? Voluptate earum eum laboriosam exercitationem praesentium neque officia consequuntur, illo soluta totam. Impedit ad libero voluptate soluta earum.</p>
+                    <h4>Update</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div id="top-links">
-                    <h1 class="border-test">hi@teogeorgiev.com</h1>
-                    <h1 class="border-test">teogeorgiev.com</h1>
+                <div id="primary-links">
+                    <ul>
+                        <li>
+                            <a href="#" title="" class="primary-link-text">hi@teogeorgiev.com</a>
+                        </li>
+                        <li>
+                            <a href="#" title="" class="primary-link-text">teogeorgiev.com</a>
+                        </li>
+                    </ul>
                 </div>
                 <div id="secondary-links">
                     <ul>
                         <li>
-                            <a href="" tabindex="">Instagram</a>
+                            <a href="" tabindex="" class="some-link">Instagram</a>
                         </li>
                         <li>
-                            <a href="" tabindex="">LinkedIn</a>
+                            <a href="" tabindex="" class="some-link">LinkedIn</a>
                         </li>
                         <li>
-                            <a href="" tabindex="">GitHub</a>
+                            <a href="" tabindex="" class="some-link">GitHub</a>
                         </li>
                         <li>
-                            <a href="" tabindex="">Behance</a>
+                            <a href="" tabindex="" class="some-link">Behance</a>
                         </li>
                     </ul>
                 </div>
@@ -56,7 +61,10 @@
             </section>
 
             <section id="gallery">
-                <img src="" alt="" />
+                <div id="image">
+                    <div id="image-blend"></div>
+                    <img src="./images/teogeorgiev-photo.jpg" alt="" />
+                </div>
             </section>
 
             <section id="name">
