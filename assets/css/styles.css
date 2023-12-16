@@ -287,13 +287,29 @@ main {
 #name p {
     display: inline-block;
     font-family: "obviously-variable",sans-serif;
-    font-variation-settings: 'wght' 900;
+    /* font-variation-settings: 'wght' 900; */
     font-size: 10rem;
     text-transform: uppercase;
     text-align: left;
     margin: 0;
     padding-left: 2.5rem;
     padding-top: 2.5rem;
+    animation: name-vars 10s infinite ease-in-out;
+}
+
+@keyframes name-vars {
+    0% {
+        letter-spacing: normal;
+        font-variation-settings: 'wght' 900;
+    }
+    50% {
+        letter-spacing: -6.5px;
+        font-variation-settings: 'wght' 600;
+    } 
+    100% {
+        letter-spacing: normal;
+        font-variation-settings: 'wght' 900;
+    }
 }
 
 
